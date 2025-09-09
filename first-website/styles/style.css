@@ -1,0 +1,29 @@
+p {
+  color: hwb(192 2% 38%);
+}
+html {
+  background-color: hwb(41 60% 10%);
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: hsl(35, 19%, 87%);
+  padding: 0 20px 20px 20px;
+  border: 3.3px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: oklab(61.344% -0.04793 -0.10707);
+  text-shadow: black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 81%;
+  border: 2px solid hsl(235, 55%, 49%);
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
